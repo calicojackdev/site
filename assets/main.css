@@ -1,0 +1,44 @@
+body,a {
+    color: white;
+}
+
+body {
+    background-color: black;
+    /*background-image: url('../assets/jack_rackham.PNG');*/
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    position: absolute;
+    margin: auto;
+    width: 50%;
+    height: 90%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#nav-bar li {
+    display: inline;
+}
+
+#nav-bar li:not(:last-child)::after {
+    content: " /";
+  }
