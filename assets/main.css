@@ -5,7 +5,7 @@ body,a {
 body {
     background-color: black;
     /*background-image: url('../assets/jack_rackham.PNG');*/
-    font-family: sans-serif;
+    font-family: monospace;
 }
 
 a {
@@ -21,6 +21,13 @@ ul, li {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.interest-list-section-list {
+    text-align: left;
+}
+.works-list {
+    text-align: right;
 }
 
 #container {
@@ -41,4 +48,10 @@ ul, li {
 
 #nav-bar li:not(:last-child)::after {
     content: " /";
-  }
+}
+
+#interest-list {
+    position: relative;
+    margin: auto;
+    width: 75%;
+}
