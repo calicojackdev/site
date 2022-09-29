@@ -23,9 +23,14 @@ ul, li {
     padding: 0;
 }
 
-.interest-list-section-list {
-    text-align: left;
-}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 1em;
+  }
+
 .works-list {
     text-align: right;
 }
@@ -54,4 +59,16 @@ ul, li {
     position: relative;
     margin: auto;
     width: 75%;
+}
+
+#interest-list li h5{
+    padding: 2em;
+}
+
+#literature-interest-list {
+    text-align: left;
+}
+
+#art-interest-list li {
+    padding-bottom: 2em;
 }
