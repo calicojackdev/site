@@ -4,12 +4,15 @@ body,a {
 
 body {
     background-color: black;
-    /*background-image: url('../assets/jack_rackham.PNG');*/
     font-family: monospace;
 }
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
 }
 
 hr {
@@ -31,20 +34,30 @@ img {
     padding: 1em;
   }
 
+div {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
 .works-list {
     text-align: right;
 }
 
 #container {
-    position: absolute;
+    position: absolute; 
+    top: 20%;
     margin: auto;
-    width: 50%;
-    height: 90%;
+    width: 50%; 
+    height: 90%; 
+}
+
+#navigation {
+    /* position: fixed;  */
     top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
+    overflow: hidden;
+    background-color: black;
 }
 
 #nav-bar li {
@@ -62,11 +75,15 @@ img {
 }
 
 #interest-list li h5{
-    padding: 2em;
+    padding: 5px;
 }
 
 #literature-interest-list {
     text-align: left;
+}
+
+#literature-interest-list li{
+    padding: 2px;
 }
 
 #art-interest-list li {
