@@ -1,2 +1,4 @@
 *.txt
 *.jpg
+app.py
+__pycache__
