@@ -15,6 +15,10 @@ a:hover {
     color: aqua;
 }
 
+#container a {
+    text-decoration: underline;
+}
+
 hr {
     margin-top: 2em;
     margin-bottom: 2em;
@@ -42,7 +46,8 @@ div {
 }
 
 .works-list {
-    text-align: right;
+    padding: .5%;
+    padding-left: 1%;
 }
 
 .section {
@@ -50,7 +55,6 @@ div {
 }
 
 #salary-table {
-    /* width: 95%; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -86,7 +90,6 @@ th, td {
 #container {
     display: block;
     margin: auto;
-    /* width: 60%;  */
     height: 90%; 
 }
 
@@ -108,15 +111,7 @@ th, td {
 #interest-list {
     position: relative;
     margin: auto;
-    width: 75%;
-}
-
-#interest-list li h5{
-    padding: 5px;
-}
-
-#literature-interest-list {
-    text-align: left;
+    /* width: 75%; */
 }
 
 #literature-interest-list li{
@@ -129,4 +124,12 @@ th, td {
 
 #selected-works-list li {
     padding: 1%;
+}
+
+#publications-interest-list li {
+    padding-bottom: 1%;
+}
+
+#miscellanea li {
+    padding-left: 2%;
 }
