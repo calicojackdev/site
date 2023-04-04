@@ -123,7 +123,8 @@ th, td {
 }
 
 #selected-works-list li {
-    padding: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
 }
 
 #publications-interest-list li {
@@ -132,4 +133,21 @@ th, td {
 
 #miscellanea li {
     padding-left: 2%;
+}
+
+.company-entry:not(:last-child) {
+    padding-bottom: 2%;
+}
+
+.company-entry li {
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+.company-entry li::before {
+    content: "- ";
+}
+
+#resume > ul > li {
+    padding-bottom: 1%;
 }
