@@ -114,7 +114,7 @@ th, td {
     /* width: 75%; */
 }
 
-#literature-interest-list li{
+#literature-interest-list li, #music-interest-list li{
     padding: 2px;
 }
 
