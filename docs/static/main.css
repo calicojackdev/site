@@ -151,3 +151,8 @@ th, td {
 #resume > ul > li {
     padding-bottom: 1%;
 }
+
+#principles li {
+    list-style-type: decimal;
+    padding-bottom: .5%;
+}
