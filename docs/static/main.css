@@ -1,4 +1,5 @@
-body,a {
+body,
+a {
     color: white;
 }
 
@@ -11,7 +12,8 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover,
+summary:hover {
     color: aqua;
 }
 
@@ -19,12 +21,17 @@ a:hover {
     text-decoration: underline;
 }
 
+#footer a {
+    text-decoration: none;
+}
+
 hr {
     margin-top: 2em;
     margin-bottom: 2em;
 }
 
-ul, li {
+ul,
+li {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -36,7 +43,7 @@ img {
     margin-right: auto;
     width: 50%;
     padding: 1em;
-  }
+}
 
 div {
     bottom: 0;
@@ -59,19 +66,22 @@ div {
     margin-right: auto;
 }
 
-#salary-table, th, td {
+#salary-table,
+th,
+td {
     border: 1px solid white;
     border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
     padding: .5%;
     padding-left: 5px;
     padding-right: 5px;
     overflow: hidden;
 }
 
-#footer > a {
+#footer>a {
     padding-bottom: 2%;
 }
 
@@ -90,7 +100,7 @@ th, td {
 #container {
     display: block;
     margin: auto;
-    height: 90%; 
+    height: 90%;
 }
 
 #navigation {
@@ -114,7 +124,8 @@ th, td {
     /* width: 75%; */
 }
 
-#literature-interest-list li, #music-interest-list li{
+#literature-interest-list li,
+#music-interest-list li {
     padding: 2px;
 }
 
@@ -148,11 +159,25 @@ th, td {
     content: "- ";
 }
 
-#resume > ul > li {
+#resume>ul>li {
     padding-bottom: 1%;
 }
 
 #principles li {
     list-style-type: decimal;
     padding-bottom: .5%;
+}
+
+details summary {
+    list-style-type: none;
+}
+
+/* copied from stack overflow */
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+/* copied from stack overflow */
+details summary::marker {
+    display: none;
 }
